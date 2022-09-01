@@ -1,0 +1,11 @@
+{
+  "name": "public-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "npx ts-node src/index.ts",
+    "start": "node ./dist/index.js"
+  }
+}
